@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Databases (exceeds GitHub 100MB file limit & generated at runtime)
+*.db
+*.db-shm
+*.db-wal
+ground_truth.db
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE & OS Metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary / Scratch Files
+test_*.png
+page_*.png
+scratch/
