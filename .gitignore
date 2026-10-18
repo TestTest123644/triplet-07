@@ -24,8 +24,16 @@ env/
 .coverage
 htmlcov/
 
-# Internal Agent Rules & Customizations (Local only)
+# Internal Agent Rules & Memory (Local only)
 .agents/
+agents.md
+AGENTS.md
+CHANGELOG.md
+changelog.md
+context.md
+DEV_LOGS.md
+devlogs.md
+instructions.md
 
 # Temporary / Scratch Files
 test_*.png

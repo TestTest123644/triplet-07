@@ -52,7 +52,7 @@ docker compose up -d
 
 ## 3. Partner Integration Guide
 
-For full technical specifications, JSON schemas, payload limits, and all 16 MCP tool signatures, see **[INTERFACE.md](INTERFACE.md)**.
+For full technical specifications, JSON schemas, payload limits, and all 16 MCP tool signatures, see **[INTERFACE.md](INTERFACE.md)** or the **[Developer & Integration Guide (PDF)](docs/DEVELOPER_GUIDE.pdf)**.
 
 ### For Layer 2: City Brain (Traffic, Grid & Emergency Response)
 1. **Consume Live Sensor Telemetry:**
@@ -113,8 +113,8 @@ pytest tests/
 - **[Operations & User Guide (PDF)](docs/USER_GUIDE.pdf)** *(5 pages, Illustrated)*: Complete visual tour with embedded screenshots of the 3D map, 5-minute hands-on testing tutorial, and threat injection cheatsheet.
 - **[Physics & Adversary Specifications (PDF)](docs/PHYSICS_AND_ADVERSARY_SPEC.pdf)** *(3 pages)*: Mathematical diurnal models, drainage kinetics, electrical loads, and attack mechanics.
 
-### Source Documentation & Agent Knowledge (For AI Agents & LLM Pair Programmers)
+### Technical Guides & Source Specifications
+- **[Interface Contract Specification (Markdown)](INTERFACE.md)**
 - **[Developer Guide (Markdown)](docs/DEVELOPER_GUIDE.md)**
 - **[Operations & User Guide (Markdown)](docs/USER_GUIDE.md)**
 - **[Physics & Adversary Specifications (Markdown)](docs/PHYSICS_AND_ADVERSARY_SPEC.md)**
-- **[Interface Contract Specification (Markdown)](INTERFACE.md)**
