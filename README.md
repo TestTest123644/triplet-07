@@ -118,4 +118,3 @@ pytest tests/
 - **[Operations & User Guide (Markdown)](docs/USER_GUIDE.md)**
 - **[Physics & Adversary Specifications (Markdown)](docs/PHYSICS_AND_ADVERSARY_SPEC.md)**
 - **[Interface Contract Specification (Markdown)](INTERFACE.md)**
-- **[Anti-AI Humanized Editorial Rules (Markdown)](.agents/rules/HUMANIZED_STYLE_GUIDE.md)**: Writing standard based on Wikipedia guidelines, enforced by `Agent_Humanizer` in [AGENTS.md](AGENTS.md).

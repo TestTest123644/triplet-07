@@ -55,18 +55,9 @@ The `antigravity` framework will spawn the following specialized subagents to bu
   - Generates a sample scenario run to verify the SQLite ground-truth ledger logs correctly.
 - **Constraint:** Must write automated tests (e.g., `pytest`). No manual testing assumptions.
 
-## 7. Agent_Humanizer (The Anti-AI Editorial Auditor)
-- **Role:** Guardian of authentic, human technical writing and documentation standards.
-- **Responsibilities:**
-  - Enforces the editorial standards defined in `.agents/rules/HUMANIZED_STYLE_GUIDE.md`.
-  - Eliminates artificial vocabulary (*serves as*, *testament to*, *pivotal*, *delve*, *tapestry*), formulaic negative parallelisms, and rule-of-three padding.
-  - Ensures all technical documents, user guides, and integration specifications speak with a direct, pragmatic developer voice.
-- **Constraint:** Reviews and approves all public documentation before publishing.
-
 ---
 
 ## Agent Collaboration Rules
 1. **No Hallucinations:** If an agent encounters an ambiguity regarding the schema or architecture, it must consult `context.md`. If the answer is not there, it must halt and ask the human.
 2. **Modular Code:** Each agent writes code in separate, cleanly defined modules (e.g., `simulation.py`, `kafka_streamer.py`, `mcp_server.py`, `crypto_utils.py`).
 3. **Log Everything:** Every time an agent completes a feature or makes a structural decision, it must report it to `Agent_Orchestrator` to be logged in `DEV_LOGS.md`.
-4. **Humanized Communications:** Every agent writing documentation, PR descriptions, or user-facing guides MUST strictly adhere to [.agents/rules/HUMANIZED_STYLE_GUIDE.md](.agents/rules/HUMANIZED_STYLE_GUIDE.md). Emojis, AI boilerplate, and ungrounded hype are strictly forbidden.

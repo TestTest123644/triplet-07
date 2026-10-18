@@ -11,16 +11,9 @@ All notable milestones and changes to the Twin Layer (Layer 1) are documented in
     - `docs/USER_GUIDE.pdf` (5 pages, illustrated with 3D map and neighborhood cards)
     - `docs/PHYSICS_AND_ADVERSARY_SPEC.pdf` (3 pages)
   - Preprocessed ASCII box diagrams and math symbols for crisp rendering in Courier.
-- **Relocation of Editorial Standards to Agent Framework (`.agents/rules/HUMANIZED_STYLE_GUIDE.md`)**:
-  - Moved the humanized writing standard into the workspace customizations root `.agents/rules/HUMANIZED_STYLE_GUIDE.md`.
-  - Registered `Agent_Humanizer` in `AGENTS.md` to enforce human technical prose across all future documentation.
-  - Retained source `.md` files in `docs/` for AI pair programming context.
 
-## [1.5.0] - Comprehensive Documentation Suite & Humanized Style Standard
+## [1.5.0] - Comprehensive Documentation Suite
 ### Added
-- **Humanized Technical Style Standard (`docs/HUMANIZED_STYLE_GUIDE.md`)**:
-  - Published editorial standard derived from Wikipedia guidelines on detecting AI-generated prose.
-  - Formulated explicit bans on AI vocabulary clichés, formulaic negative parallelisms, rule-of-three filler, canned hedging, and superficial summaries, establishing authentic human engineering prose.
 - **Developer & Integration Manual (`docs/DEVELOPER_GUIDE.md`)**:
   - Authored comprehensive developer documentation covering architecture, Docker vs local execution, MCP protocol and Python client integration, Kafka streaming parameters, Ed25519 canonical signature verification routines, 30-second benchmark reproduction, and troubleshooting.
 - **Operations & User Guide with Screenshots (`docs/USER_GUIDE.md`)**:
